@@ -10,7 +10,12 @@ bool esValido(int n){
 }
 
 int main(){
-	cout << esValido(496) << esValido(153) << endl;
+	
+	int x;
+	
+	while (cin >> x && x > 0){
+		cout << esValido(x) << endl;
+	}
 	
 	return 0;
 }
